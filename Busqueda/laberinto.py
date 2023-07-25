@@ -223,8 +223,10 @@ class Laberinto():
                 self.solucion.append(nodo_actual.estado) #Agregamos la meta a la solución
                 print("Recorrido: ", self.solucion)
                 
-                costo = len(self.nodos_explorados) #Determinamos cuantos nodos exploró
-                print("Nodos explorados: ", costo)
+                nodos_explorados = len(self.nodos_explorados) #Determinamos cuantos nodos exploró
+                print("Nodos explorados: ", nodos_explorados)
+                costo = len(self.solucion) #Determinamos cual fue el costo
+                print("Costo: ", costo)
                 return #Finalizamos el bucle
 
             #Continuamos el bucle
