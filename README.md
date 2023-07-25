@@ -6,16 +6,19 @@ Se requiere de la librería matplotlib para poder generar la imagen. Se instala 
 
 En la linea 280 laberinto = Laberinto("A") acá se cambia el String que se le pasa entre: "A", "DFS", "BFS" y "GBFS" dependiendo de que algoritmo se quiera utilizar.
 
-Resultados de DFS:
+## Resultados de DFS:
+
 ![image](https://github.com/LucianoChag/Algoritmos-de-Busqueda/assets/128649774/77f2200a-d386-415a-a36d-ea2c6765400c)
 
-Resultados de BFS:
+## Resultados de BFS:
+
 ![image](https://github.com/LucianoChag/Algoritmos-de-Busqueda/assets/128649774/3eefbb8c-278d-44fd-a39e-f446b1e98c4d)
 
-Resultados de GBFS:
+## Resultados de GBFS:
+
 ![image](https://github.com/LucianoChag/Algoritmos-de-Busqueda/assets/128649774/e241e40e-1efd-4220-b0c8-02d9bc6d666a)
 
-Resultados de A*:
+## Resultados de A*:
 ![image](https://github.com/LucianoChag/Algoritmos-de-Busqueda/assets/128649774/a9b538db-1c07-42ca-b9e7-670eea4b44ce)
 
 
